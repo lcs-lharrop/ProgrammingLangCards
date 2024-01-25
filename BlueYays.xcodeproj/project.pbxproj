@@ -41,6 +41,7 @@
 		3B2844052B5EAE0C00D85F3C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3B655E782B59ADF600799AFA /* ContentView.swift */,
 				3B2844062B5EAE1A00D85F3C /* LangView.swift */,
 				3B28440B2B6177DA00D85F3C /* ListView.swift */,
 			);
@@ -74,10 +75,9 @@
 		3B655E752B59ADF600799AFA /* BlueYays */ = {
 			isa = PBXGroup;
 			children = (
+				3B655E762B59ADF600799AFA /* BlueYaysApp.swift */,
 				3B2844082B608E6700D85F3C /* Models */,
 				3B2844052B5EAE0C00D85F3C /* Views */,
-				3B655E762B59ADF600799AFA /* BlueYaysApp.swift */,
-				3B655E782B59ADF600799AFA /* ContentView.swift */,
 				3B655E7A2B59ADF900799AFA /* Assets.xcassets */,
 				3B655E7C2B59ADF900799AFA /* Preview Content */,
 			);
