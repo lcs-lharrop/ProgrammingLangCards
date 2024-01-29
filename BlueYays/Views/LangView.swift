@@ -83,9 +83,7 @@ struct LangView: View {
                 )
             )
         }
-//        .navigationTitle(
-//            Text(lang.title)
-//        )
+        .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
         .toolbarTitleDisplayMode(.inlineLarge)
     }

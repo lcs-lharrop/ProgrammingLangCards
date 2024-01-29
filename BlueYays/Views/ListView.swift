@@ -14,7 +14,7 @@ struct ListView: View {
     var body: some View {
         let langs = Langs(Cual: lang)
         var corner: CGFloat {
-            switch lang {
+            switch lang { // Used instead of an if to reduce code
             case "html", "css":
                 return 0
             default:

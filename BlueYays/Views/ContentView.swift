@@ -7,29 +7,36 @@
 
 import SwiftUI
 
+//struct Language: Identifiable {
+//    let id = UUID()
+//    let name: String
+//}
+
 struct ContentView: View {
     
-//    var langs: 
+    let langs = [
+        "js",
+        "py",
+        "java",
+        "html",
+        "css",
+    ]
+    
+    //    let langs = [
+    //        Language(name: "js"),
+    //        Language(name: "py"),
+    //        Language(name: "java"),
+    //        Language(name: "html"),
+    //        Language(name: "css"),
+    //    ]
     
     var body: some View {
         NavigationStack {
-            List {
-                
-                ListView(lang: "js")
-                
-                ListView(lang: "py")
-                
-                ListView(lang: "java")
-                
-                ListView(lang: "html")
-                
-                ListView(lang: "css")
-                
-                
+            List(langs, id: \.self) { lang in
+                ListView(lang: lang)
             }
             .navigationTitle("Programming Langs")
         }
-        
     }
 }
 
